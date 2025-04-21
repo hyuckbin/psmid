@@ -1,4 +1,4 @@
-package org.example.chat.vo;
+package org.example.chat1.vo;
 
 import java.util.Random;
 import java.util.Scanner;

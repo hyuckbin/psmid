@@ -1,6 +1,6 @@
-package org.example.chat;
+package org.example.chat1;
 
-import org.example.chat.vo.UserAccount;
+import org.example.chat1.vo.UserAccount;
 
 import java.util.Scanner;
 
