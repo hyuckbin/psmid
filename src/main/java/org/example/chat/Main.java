@@ -4,7 +4,7 @@ import org.example.chat.vo.UserAccount;
 
 import java.util.Scanner;
 
- class Main {
+ public class Main {
     void run(){
         Scanner s= new Scanner(System.in);
         System.out.print("Input the id : ");
@@ -35,6 +35,9 @@ import java.util.Scanner;
 
         user.setScore();;
         user.printScore();
+        System.out.println("인코딩된 비밀번호: " + user.encodePw());
+        System.out.println("디코딩된 비밀번호: " + user.decodePw());
+
     }
     public static void main(String[] args) {
         Main main = new Main();

@@ -49,6 +49,10 @@ public class UserAccount {
         String firstPw = String.valueOf(incodePw);
         return firstPw;
     }
+
+    public String encodePw(){
+        return encodePw;
+    }
 }
 
 
