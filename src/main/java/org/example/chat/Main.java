@@ -32,6 +32,9 @@ import java.util.Scanner;
             else System.out.println("실패 다시 입력하세요,(quit):종료");
 
         }
+
+        user.setScore();;
+        user.printScore();
     }
     public static void main(String[] args) {
         Main main = new Main();

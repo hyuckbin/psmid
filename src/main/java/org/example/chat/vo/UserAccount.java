@@ -28,7 +28,7 @@ public class UserAccount {
         return false;
         }
 
-    public void serScore(){
+    public void setScore(){
         System.out.print("국어 점수 : ");
         scores[0] = s.nextInt();
         System.out.print("영어 점수 : ");
@@ -40,8 +40,14 @@ public class UserAccount {
         int sumScore = scores[0]+scores[1]+scores[2];
         double avgScore = sumScore / 3.0;
 
-        System.out.printf("국어: %d 영어 : %d 수학 : %d",scores[0],scores[1],scores[2]);
+        System.out.printf("국어: %d 영어 : %d 수학 : %d\n",scores[0],scores[1],scores[2]);
         System.out.printf("총점 : %d , 평균 %.1f",sumScore ,avgScore);
+    }
+
+    public String decodePw(){
+        int incodePw = Integer.parseInt(encodePw) -randVal;
+        String firstPw = String.valueOf(incodePw);
+        return firstPw;
     }
 }
 
