@@ -16,6 +16,6 @@ public class BlockScope {
                     "인스턴스의 왕은 %s, 블록의 왕은 %s%n",
                     this.king, king
             );
-        }s
+        }
 
 }
